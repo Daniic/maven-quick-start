@@ -8,7 +8,7 @@ public class Application {
 	public void greet(){
 		List<String> greetings = new ArrayList<String>();
 		greetings.add("Hello");
-		for (String greeting:greetings){
+		for (String greeting:greetings){ 
 			System.out.println("Greeting: "+greeting);
 		}
 	}
